@@ -93,6 +93,7 @@ a:active { text-decoration: none; }
 .round {
     border: 2px solid black;
     border-radius: 8px;
+    background-color: rgba(231, 226, 219, 0.3);
     padding: 10px;
     margin: auto;
     max-width: 800px;
