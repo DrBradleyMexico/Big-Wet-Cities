@@ -45,7 +45,7 @@ a:active { text-decoration: none; }
 .nav {
     border-width: 1px 0;
     list-style: none;
-    margin: 0;
+    margin: 10px;
     padding: 0;
     text-align: center;
 }
@@ -59,10 +59,15 @@ a:active { text-decoration: none; }
 }
 
 .footer {
+    display: flex;
     font-size: 16px;
     text-align: center;
-    color: black; 
+    color: black;
     margin-top: 20px;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .link {
@@ -82,7 +87,15 @@ a:active { text-decoration: none; }
 .linkscontent {
     text-align: left;
     font-size: 20px;
-    padding-left: 100px;
+    padding: 100px;
+}
+
+.round {
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 10px;
+    margin: auto;
+    max-width: 800px;
 }
   
   .snowflake {
