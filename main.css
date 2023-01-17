@@ -77,7 +77,13 @@ a:active { text-decoration: none; }
     padding: 0px;
     color: black;
     font-weight: bold;
-  }  
+  } 
+
+.linkscontent {
+    text-align: left;
+    font-size: 20px;
+    padding-left: 100px;
+}
   
   .snowflake {
     color: #fff;
