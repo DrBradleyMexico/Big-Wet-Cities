@@ -90,6 +90,20 @@ a:active { text-decoration: none; }
     padding: 100px;
 }
 
+.imagetag {
+    display: flex;
+    justify-content:center;
+    margin-bottom: 30px;
+    width: 50px;
+}
+
+.imagetag2 {
+    display: flex;
+    justify-content:center;
+    margin-bottom: 10px;
+    width: 40px;
+}
+
 .round {
     border: 2px solid black;
     border-radius: 8px;
